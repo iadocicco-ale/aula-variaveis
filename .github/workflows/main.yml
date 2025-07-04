@@ -13,6 +13,6 @@ jobs:
         env:
           ENV_ACTION: "Valor ACTION - Execucao"
         run: |
-          echo "ENV_WORKFLOW"
-          echo "ENV_JOB"
-          echo "ENV_ACTION"
+          echo "$ENV_WORKFLOW"
+          echo "$ENV_JOB"
+          echo "$ENV_ACTION"
